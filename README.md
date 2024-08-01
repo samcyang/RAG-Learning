@@ -1,8 +1,11 @@
-RAG - Multi-Query Query translation (RAG-Multi-Query-Translation-LangChain.ipynb)
+RAG - Multi-Query Query translation
 
-Besides using the LangChain Chain or Pipeline illustrating in the LangChain Rag tutorial, the step-to-step-query function in the last cell executes the same logic, step by step, which helps me to understand the processes and also be able to improve the prompt better without switching to langsmith often.
+Besides using the LangChain Chain/Pipeline as illustrated in the LangChain Rag tutorial below, 
+this program also creates a step-to-step-query function that executes within the same logic 
+but without the abstract of Chain/Pipeline. it helps me to understand the processes 
+and also be able to improve the prompt or question preparation better. 
+Of course, langSmith is a great tool as well
 
 Please review the RAG tutorial from Langchain in details (part 5 - multi-query query translation)
-https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_1_to_4.ipynb
-
+https://www.youtube.com/watch?v=JChPi0CRnDY
 
