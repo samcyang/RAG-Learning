@@ -30,7 +30,10 @@ can satisfy the necessary job requirements.
 2. The logic queries each sub-question against the resume and aggregates 
 all the answers from sub-questions as the aggregated context. (similar to RAG Decomposition) 
 3. The final logic queries the aggregated context with the requirement and provides a summary to 
-identify if this candidate meets this job requirements. 
+identify if this candidate meets this job requirements.
+
+In order to retrieve the useful information from LLM,
+the wordings for the requirements and template (or Prompt) preparation are critical.
 
 
 Input arguments to the step_to_step_fusion are
